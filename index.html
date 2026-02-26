@@ -2,59 +2,150 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
 </head>
+
 <body>
+
+<header>
+    <h1>Practice Webpage</h1>
+    <nav>
+        <ul>
+            <li><a href="#Header">Header</a></li>
+            <li><a href="#list">List</a></li>
+            <li><a href="#table">Table</a></li>
+            <li><a href="#image">Image</a></li>
+            <li><a href="#form">Form</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="Header">
     <h1>Hello World!</h1>
     <h2>Hello World!</h2>
     <h3>Hello World!</h3>
     <h4>Hello World!</h4>
     <h5>Hello World!</h5>
     <h6>Hello World!</h6>
-    <p> Lorem <b>ipsum</b> <i>dolor</i> sit amet.
-    <br>dfghjk<u> ghjkl</u> tyuiop <Small>rtyuio</Small> hjkl
-    <hr>rtyuio <del>ghjk</del> iop<ins> qwrer</ins> vbn jk asd
-    </p>
-    <a href="https://google.com">Go to Google</a>
+</section>
+
+<section id="image">
+    <img src="image/cat.jpeg" alt="Cat" width="200">
+
+    <br><br>
+
+    <audio controls autoplay loop>
+        <source src="image/audio/domartistudios-magical-wizard-school-orchestral-fantasy-488126.mp3" type="audio/mpeg">
+    </audio>
+
+    <br><br>
+
+    <video width="300" controls autoplay loop>
+        <source src="image/video/204886-925552613_small.mp4" type="video/mp4">
+    </video>
+</section>
+
+<section id="list">
+    <ul>
+        <li>Red</li>
+        <li>Blue</li>
+        <li>Black</li>
+    </ul>
+</section>
+
+<p>
+    Lorem <b>ipsum</b> <i>dolor</i> sit amet.
+    <br> dfghjk <u>ghjkl</u> tyuiop <small>rtyuio</small> hjkl
+    <hr> rtyuio <del>ghjk</del> iop <ins>qwrer</ins> vbn jk asd
+</p>
+
+<a href="https://google.com" target="_blank">Go to Google</a>
+
+<section id="table">
     <table border="1">
-        <tr>
-            <th>Reg.No</th>
-            <th>vasavi</th>
-            <th>age</th>
-            <th>dep</th>
-        </tr>
-        <body>
+        <thead>
+            <tr>
+                <th>Reg.No</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Department</th>
+            </tr>
+        </thead>
+        <tbody>
             <tr>
                 <td>101</td>
-                <td>vasavi</td>
+                <td>Vasavi</td>
                 <td>20</td>
-                <td>ds</td>
+                <td>DS</td>
             </tr>
             <tr>
                 <td>102</td>
-                <td>vinay</td>
+                <td>Vinay</td>
                 <td>23</td>
-                <td>biology</td>
-            </tr>
-            <tr>
-                <td>101</td>
-                <td>vasavi</td>
-                <td>20</td>
-                <td>ds</td>
+                <td>Biology</td>
             </tr>
             <tr>
                 <td>103</td>
-                <td>pavan</td>
+                <td>Pavan</td>
                 <td>24</td>
-                <td>mechanical</td>
+                <td>Mechanical</td>
             </tr>
-
-        </body>
+        </tbody>
     </table>
-    <img src="image/cat.jpeg" alt="Tree">
+</section>
 
+<hr>
 
-    
+<section id="form">
+<h2>Registration Form</h2>
+
+<form action="" method="GET">
+    Name:
+    <input type="text" name="name"><br><br>
+
+    Gender:
+    <input type="radio" name="gender" value="Male">Male
+    <input type="radio" name="gender" value="Female">Female
+    <br><br>
+
+    Skills:
+    <input type="checkbox" name="skills" value="MERN">MERN
+    <input type="checkbox" name="skills" value="Java">Java
+    <br><br>
+
+    Country:
+    <select name="country">
+        <option value="">--Select--</option>
+        <option value="India">India</option>
+        <option value="China">China</option>
+    </select>
+    <br><br>
+    <label>DOB:</label>
+    <input type="date">
+    <br><br>
+    <label>Resume:</label>
+    <input type="file">
+    <br><br>
+    <label>Resume:</label>
+    <input type="file">
+    <br><br>
+    <input type="submit">
+    <input type="reset">
+    <button type="button">Click me</button>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+</form>
+</section>
+<fieldset>
+    <legend>Student Details</legend>
+    <label >Name:</label>
+    <input type="text" placeholder="enter name">
+</fieldset>
+<footer>
+    <center>
+        <p>@2026 MITS practice website</p>
+    </center>
+</footer>
+
 </body>
 </html>
