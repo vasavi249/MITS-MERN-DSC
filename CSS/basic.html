@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Basic CSS</title>
+        <style>
+            /* body{
+                background-color: aquamarine;
+                background-image:url(../image/cat.jpeg) ;
+                background-repeat: no-repeat;
+                background-size:cover;
+                background-position: center;
+            } */
+             /* .box{
+                background-color: chartreuse;
+                width: 5vw;
+                height:100vh;
+                color:darkblue;
+                font-size: 10rem;
+                
+             } */
+             /* .child1{
+                font-size: 1em;
+             }
+             .child2{
+                font-size: 1rem;
+             } */
+              /* .box{
+                background-color: red;
+                border: 10px double green;
+                padding:10px 20px 30px 40 px;
+                padding-left: 10px;
+                padding-bottom: 10px;
+                padding-top: 10px;
+                padding-right: 10px;
+                margin: 10px 20px 30px 40px;
+                margin-top: 1ppx;
+                margin-bottom: 10px;
+                margin-left: 10px;
+                margin-right: 10px;
+              } */
+               /* .box{
+                display: inline-block;
+                background-color: red;
+                width: 100px;
+                height: 100px;
+                text-decoration:line-through;
+               }ul{
+                list-style:none;
+               }
+               a{
+                color: black;
+                text-decoration: none;
+               } */
+                body{
+                    height:1000vh;
+                }
+                .sticky{
+                    position: sticky;
+                    top: 0;
+                }
+                .fixed{
+                    position: fixed;
+                    bottom: 10px;
+                    right: 10px;
+                    background-color: red;
+                    padding: 10px;
+                }
+                .parent{
+                    position: realtive;
+                    border: 2px solid black;
+                    background-color: bisque;
+                    width: 300px;
+                    top: 10px;
+                    left: 30px;
+                    height: 60vh;
+
+                }
+                .child{
+                    position:absolute;
+                    border: 2px dotted green;
+                    top: 50px;
+                    left: 100px;
+                    width: 100px;
+                    height: 100px;
+                    background-color: white;
+                   
+                }
+        </style>
+</head>
+<body>
+    <div class="sticky">Sticky</div>
+    <div class="parent">
+        Relative
+        <div class="child">
+            Absolute
+        </div>
+    </div>
+    <div class="fixed">Fixed</div>
+
+    <!-- <a href="#">Home</a>
+    <ul>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+    </ul> -->
+    <!-- <div class="box">
+        Lorem ipsum dolor sit amet.
+    </div> -->
+</body>
+</html>
