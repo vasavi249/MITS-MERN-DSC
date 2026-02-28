@@ -5,6 +5,34 @@
     <link rel="icon" href="../image/cat.jpeg">
 </head>
 <body>
-    <script src="./script.js"></script>
+    <p id="para">Hi Hello🤗</p>
+    <ul id="list">
+    </ul>
+    <button id="btn">click</button>
+    <!-- <p class="para1">lorem tyuib gbhn rtyu.</p> -->
+    <script>
+        const btn=document.getElementById("btn");
+        btn.addEventListener("click",function(){
+            const li=document.createElement("li");
+            li.innerText="New li element";
+            document.getElementById("list").append(li);
+
+        })
+        // document.getElementById("para").textContent="Hello World"
+        // document.getElementByClassName("para").innerHtml="Hello vasavi"
+        // document.getElementById("para").innerHTML="<p>Hello vasavi</p>"
+        // var para=document.getElementById("para");
+        // console.log(para);
+        // para.style.color="red";
+        // para.style.backgroundColor="pink";
+        // para.style.fontSize="200px";
+        // var para1=document.getElementByClassName("para1");
+        // console.log(para1);
+        // const li=document.createElement("li");
+        // li.innerText="New li element";
+        // document.getElementById("list").append(li);
+
+
+    </script>
 </body>
 </html>

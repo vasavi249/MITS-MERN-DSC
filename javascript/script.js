@@ -265,9 +265,9 @@ if(true){
 }
 console.log(a);
 console.log(b);
-// let a=10;//global
-// if(true){
-//     let b=20;
-// }
-// console.log(a);
-// console.log(b);
+let a=10;//global
+if(true){
+    let b=20;
+}
+console.log(a);
+console.log(b);
